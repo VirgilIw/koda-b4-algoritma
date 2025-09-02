@@ -1,11 +1,11 @@
-DECLARE hasil : INTEGER
-DECLARE bilangan : INTEGER
+DECLARE Hasil : INTEGER
+DECLARE Bilangan : INTEGER
 
-bilangan <- 6
+Bilangan <- 6
 
-hasil <- bilangan % 2
+Hasil <- Bilangan % 2
 
-IF hasil == 0 THEN
+IF Hasil == 0 THEN
     OUTPUT "Genap"
 ELSE 
     OUTPUT "Ganjil" 
