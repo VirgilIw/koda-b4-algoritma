@@ -1,12 +1,12 @@
 ```mermaid
 flowchart TB
-circle((mulai)) --->data[/diameter lingkaran/]
+circle((mulai)) --->data[/diameterLingkaran/]
+data--->output[/14/]
 
 circle --> phi{phi}
 phi --> phi1[/22/7/]
 phi --> phi2[/3.14/]
 
-data--->output[/14/]
 
 output---> jari[jari-jari = 1/2 x diameter lingkaran]
 jari --->luas[luas lingkaran = phi x jari - jari x jari - jari]
