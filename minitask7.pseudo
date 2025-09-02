@@ -1,0 +1,26 @@
+DECLARE JariJari : INTEGER
+DECLARE Testing : INTEGER
+DECLARE Phi : REAL
+DECLARE LuasLingkaran : INTEGER
+DECLARE KelilingLingkaran : INTEGER
+
+
+JariJari <- 7
+Testing <- JariJari % 7
+
+// ini untuk mengecek Phi
+// OUTPUT nya Phi
+
+IF Testing == 0 THEN
+    Phi <- 22/7
+ELSE
+    Phi <- 3.14
+ENDIF
+
+OUTPUT Phi
+
+LuasLingkaran <- Phi * JariJari * JariJari
+KelilingLingkaran <- 2 * Phi * JariJari
+
+OUTPUT LuasLingkaran
+OUTPUT KelilingLingkaran
