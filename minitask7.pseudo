@@ -5,7 +5,7 @@ DECLARE LuasLingkaran : INTEGER
 DECLARE KelilingLingkaran : INTEGER
 
 
-JariJari <- 7
+JariJari <- 8
 Testing <- JariJari % 7
 
 // ini untuk mengecek Phi
@@ -17,6 +17,7 @@ ELSE
     Phi <- 3.14
 ENDIF
 
+// Phi nya di panggil agar bisa kepakai di rumus Luas dan Keliling
 OUTPUT Phi
 
 LuasLingkaran <- Phi * JariJari * JariJari
