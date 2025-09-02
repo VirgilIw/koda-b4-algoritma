@@ -1,7 +1,7 @@
-DECLARE Ongkos : INTEGER
-DECLARE Jarak : INTEGER
+DECLARE Ongkos : DOUBLE
+DECLARE Jarak : DOUBLE
 
-Jarak <- 10
+INPUT Jarak
 
 IF Jarak <= 5 THEN
     Ongkos <- 8000
