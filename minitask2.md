@@ -5,4 +5,5 @@
 3. kita cek apakah angka 5 ganjil atau genap gunakan modulus % 2
 4. jika %2 == 0, maka bilangan genap
 5. jika %2 !== 0, maka bilangan ganjil
-6. selesai
+6. tampilkan hasil ganjil dan genap
+7. selesai
