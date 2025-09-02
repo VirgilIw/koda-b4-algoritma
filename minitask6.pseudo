@@ -1,0 +1,13 @@
+DECLARE hasil : INTEGER
+DECLARE bilangan : INTEGER
+
+bilangan <- 6
+
+hasil <- bilangan % 2
+
+IF hasil == 0 THEN
+    OUTPUT "Genap"
+ELSE 
+    OUTPUT "Ganjil" 
+ENDIF
+
