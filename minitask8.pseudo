@@ -1,12 +1,12 @@
-DECLARE Ongkos : DOUBLE
+DECLARE Ongkir : DOUBLE
 DECLARE Jarak : DOUBLE
 
 INPUT Jarak
 
 IF Jarak <= 5 THEN
-    Ongkos <- 8000
+    Ongkir <- 8000
 ELSE 
-    Ongkos <- (Jarak - 5) * 3000
+    Ongkir <- (Jarak - 5) * 3000
 ENDIF
 
-OUTPUT Ongkos
+OUTPUT Ongkir
