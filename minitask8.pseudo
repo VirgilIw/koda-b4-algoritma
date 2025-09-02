@@ -1,12 +1,12 @@
-DECLARE Ongkir : DOUBLE
 DECLARE Jarak : DOUBLE
+DECLARE Ongkir : DOUBLE
 
 INPUT Jarak
 
 IF Jarak <= 5 THEN
     Ongkir <- 8000
 ELSE 
-    Ongkir <- (Jarak - 5) * 3000
+    Ongkir <- 8000 + (Jarak - 5) * 3000
 ENDIF
 
 OUTPUT Ongkir
