@@ -9,9 +9,9 @@ phi --> phi2[/3.14/]
 
 
 output---> jari[jari-jari = 1/2 x diameter lingkaran]
-jari --->luas[luas lingkaran = phi x jari - jari x jari - jari]
+jari --->luas[luasLingkaran = phi x jari - jari x jari - jari]
 
-jari --->keliling[keliling lingkaran = 2 x phi x jari - jari]
+jari --->keliling[kelilingLingkaran = 2 x phi x jari - jari]
 
 keliling --> phi1
 luas --> phi1
