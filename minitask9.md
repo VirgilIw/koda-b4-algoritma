@@ -1,42 +1,42 @@
 ```mermaid
 flowchart TB
 
-circle((start))
+start((start))
 
-circle--->input1[/A/]
+start--->input1[/A/]
 
-%% Desicion A %%
-input1-->A{A<= 100 && A>=90}
-A--False --->false1[/B/]
-A--True --->hasil1[/A/]
+%% Decision A %%
+input1-->Adec{A <= 100 && A >= 90}
+Adec--False --->false1[/B/]
+Adec--True --->hasil1[/A/]
 
-%% Desicion B %%
+%% Decision B %%
 
-false1--->B{B>= 75 && B <= 89>}
-B--False--->false2[/C/]
-B--true--->hasil2[/B/]
+false1--->Bdec{B >= 75 && B <= 89}
+Bdec--False--->false2[/C/]
+Bdec--True--->hasil2[/B/]
 
-%% Desicion C %%
+%% Decision C %%
 
-false2--->C{C >= 60 && D <= 74}
-C--False--->false3[/D/]
-C--True --->hasil3[/C/]
+false2--->Cdec{C >= 60 && C <= 74}
+Cdec--False--->false3[/D/]
+Cdec--True --->hasil3[/C/]
 
-%% Desicion D %%
+%% Decision D %%
 
-false3--->D{D >= 40 && D <= 59}
-D--False--->false4[/E/]
-D--True--->hasil4[/D/]
+false3--->Ddec{D >= 40 && D <= 59}
+Ddec--False--->false4[/E/]
+Ddec--True--->hasil4[/D/]
 
-%% Desicion E %%
-false4--->E{E >= 20 && E <=39}
-E--False--->false5[/F/]
-E--True--->hasil5[/E/]
+%% Decision E %%
+false4--->Edec{E >= 20 && E <=39}
+Edec--False--->false5[/F/]
+Edec--True--->hasil5[/E/]
 
-%% Desicion F %%
-false5--->eF{F >=0 && F <= 19 }
-eF--false--->false6[/error/]
-eF--true--->hasil6[/F/]
+%% Decision F %%
+false5--->eFdec{F >=0 && F <= 19 }
+eFdec--False--->false6[/error/]
+eFdec--True--->hasil6[/F/]
 
 false6--->fin(((stop)))
 hasil1--->fin(((stop)))
