@@ -1,0 +1,18 @@
+DECLARE Grade : INTEGER
+INPUT Grade
+
+IF Grade >= 90 && Grade <= 100 THEN
+    OUTPUT "Grade A"
+ELSE IF Grade >= 75 && Grade <= 89 THEN
+    OUTPUT "Grade B"
+ELSE IF Grade >= 60 && Grade <= 74 THEN
+    OUTPUT "Grade C"
+ELSE IF Grade >= 40 && Grade <= 59 THEN
+    OUTPUT "Grade D"
+ELSE IF Grade >= 20 && Grade <= 39 THEN
+    OUTPUT "Grade E"
+ELSE IF Grade >= 0 && Grade <= 19 THEN
+    OUTPUT "Grade F"
+ELSE
+    OUTPUT "error"
+ENDIF
